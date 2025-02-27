@@ -21,7 +21,7 @@ Follow these steps to download, compile, and run the game on Windows:
 
 ### 1. Clone the Repository 📂
 ```sh
-git clone https://github.com/your-username/Go_game.git
+git clone https://github.com/Vincenzo0611/Go_game.git
 ```
 
 ### 2. Navigate to the Project Directory 📁
