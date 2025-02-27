@@ -50,6 +50,7 @@ struct text_info {
 #ifdef __cplusplus
 extern "C" {
 #endif
+int Min(int a, int b);
 void gotoxy(int x, int y);		// move cursor to the position (x,y)
 int wherex(void);			// return x coordinate of the cursor
 int wherey(void);			// return y coordinate of the cursor

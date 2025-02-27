@@ -18,7 +18,7 @@
 #define EXTERNC
 #endif
 
-int min(int a, int b)
+int Min(int a, int b)
 {
     if(a < b)
         return a;
@@ -156,8 +156,8 @@ static void ResizeConsole(HANDLE con, int w, int h, int d) {
 	if(w < cw || h < ch) {
 		r.Top = 0;
 		r.Left = 0;
-		r.Right = (SHORT)(min(w, cw) - 1);
-		r.Bottom = (SHORT)(min(h, ch) - 1);
+		r.Right = (SHORT)(Min(w, cw) - 1);
+		r.Bottom = (SHORT)(Min(h, ch) - 1);
 		SetConsoleWindowInfo(con, TRUE, &r);
 		};
 
